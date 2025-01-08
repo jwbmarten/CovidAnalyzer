@@ -35,39 +35,6 @@ public class UserInput {
 
     }
 
-//    public int getUserIntChoice(int maxIntChoice){
-//
-//        Scanner userInput = new Scanner(System.in);
-//        int userSelection = -1;
-//
-//        System.out.print("> ");
-//        System.out.flush();
-//
-//        // do-while loop will continue to execute until the user provides an int between 0 and the max possible selection
-//        do {
-//
-//            if (userInput.hasNext()) {
-//                // If the user inputs a non-integer value, notify the user and re-prompt
-//                while (!userInput.hasNextInt()) {
-//                    System.out.println("Input invalid! Please enter an integer between 0 and " + maxIntChoice);
-//                    System.out.print("> ");
-//                    System.out.flush();
-//                    userInput.next(); // this will consume the non-valid input, allowing the user's next input to be checked by the loop condition
-//                }
-//
-//                userSelection = userInput.nextInt();
-//
-//                if ((userSelection < 0) || (userSelection > 7)) {
-//                    System.out.println("Input invalid! Please enter an integer between 0 and " + maxIntChoice);
-//                    System.out.print("> ");
-//                    System.out.flush();
-//                }
-//            }
-//        } while ((userSelection < 0) || (userSelection > maxIntChoice)); // if user selection is less than 0 or greater than the maz possible selection, start loop over
-//
-//        // if the do-while loop has been exited, user has provided a valid int between the prescribed range, return the selection
-//        return userSelection;
-//    }
 
     public int getUserIntChoice(int maxIntChoice) {
 //        Scanner userInput = new Scanner(System.in);
@@ -120,24 +87,6 @@ public class UserInput {
         System.out.print("> ");
         System.out.flush();
 
-        // do-while loop will continue to execute until the user provides a valid date entry YYYY-MM-DD
-//        do {
-//
-//            String argument = userInput.next();
-//            Matcher matcher = pattern.matcher(argument);
-//
-//            // IF the provided string does not match the regex, notify the user and reprompt
-//            if (!matcher.matches()){
-//                System.out.println("Input invalid! Please enter a date in the format: YYYY-MM-DD!");
-//                System.out.print("> ");
-//                System.out.flush();
-//            } else {  // ELSE IF the provided string does match the correct format, store the date in the date array and set input Valid to true
-//                date = argument;
-//                inputValid = true;
-//            }
-//
-//        } while (!inputValid); // This loop can only be exited once the user provides a correctly formatted date
-
         while (true) {
             if (userInput.hasNext()) {
 
@@ -178,18 +127,6 @@ public class UserInput {
         System.out.print("> ");
         System.out.flush();
 
-//        while (!inputValid) {
-//            zipCode = userInput.next(); // Reads the user input
-//            Matcher matcher = pattern.matcher(zipCode);
-//
-//            if (matcher.matches()) { // Check if input matches the 5-digit pattern, if so inputValid is set to true so the do-while loop can be escaped.
-//                inputValid = true;
-//            } else {
-//                System.out.println("Invalid input! Please enter exactly 5 digits.");
-//                System.out.print("> ");
-//                System.out.flush();
-//            }
-//        }
 
         while (true) {
             if (userInput.hasNext()) {
@@ -228,17 +165,6 @@ public class UserInput {
         System.out.print("> ");
         System.out.flush();
 
-//        while (!inputValid) {
-//            userResponse = userInput.next().toLowerCase();
-//
-//            if ((userResponse.equals("partial")) || (userResponse.equals("full"))){
-//                inputValid = true;
-//            } else {
-//                System.out.println("Invalid input! Please enter partial or full");
-//                System.out.print("> ");
-//                System.out.flush();
-//            }
-//        }
 
         while (true) {
             if (userInput.hasNext()) {

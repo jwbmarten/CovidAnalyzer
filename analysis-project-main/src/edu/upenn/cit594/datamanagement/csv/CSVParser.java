@@ -1,17 +1,4 @@
 package edu.upenn.cit594.datamanagement.csv;
-/*
- * I attest that the code in this file is entirely my own except for the starter
- * code provided with the assignment and the following exceptions:
- * <Enter all external resources and collaborations here. Note external code may
- * reduce your score but appropriate citation is required to avoid academic
- * integrity violations. Please see the Course Syllabus as well as the
- * university code of academic integrity:
- *  https://catalog.upenn.edu/pennbook/code-of-academic-integrity/ >
- * Signed,
- * Author: Virgilio Gonzenbach
- * Penn email: <vgonzenb@seas.upenn.edu>
- * Date: 2024-03-10
- */
 
 import java.io.IOException;
 import java.util.ArrayList;
