@@ -101,27 +101,6 @@ public class UserInput {
             } else {
                 break;
             }
-
-//                while (!userInput.hasNextInt()) {
-//                    System.out.println("Input invalid! Please enter an integer between 0 and " + maxIntChoice);
-//                    System.out.print("> ");
-//                    System.out.flush();
-//                    userInput.next(); // Consume non-integer input
-//                }
-//                userSelection = userInput.nextInt();
-//
-//                if (userSelection >= 0 && userSelection <= maxIntChoice) {
-//                    break; // Valid input, exit loop
-//                } else {
-//                    System.out.println("Input invalid! Please enter an integer between 0 and " + maxIntChoice);
-//                    System.out.print("> ");
-//                    System.out.flush();
-//                }
-//            } else {
-//                // This branch will execute if there's no more input (e.g., end of stream)
-//                System.out.println("No more input available.");
-//                break;
-//            }
         }
 
         return userSelection;
@@ -331,7 +310,8 @@ public class UserInput {
 
     }
 
-    public void getTotalPopulationAllZips(){
+    public void getTotalPopulationAllZips() {
+        System.out.println("testing");
         ConsolePrinting.printOutput(processor.calculateTotalPopulation());
     }
 

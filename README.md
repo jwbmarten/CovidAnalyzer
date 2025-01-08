@@ -98,20 +98,10 @@ CovidAnalyzer is a Java application designed to leverage open source data from t
 <!-- GETTING STARTED -->
 ## Getting Started
 
-PixelSolitaire has been packaged as a .exe file using Gradle and Construo for simple launch on Windows, or alternatively the game can be launched from the Java files directly. 
 
-### .exe Launch
-
-To get started quickly on Windows, the dsitribution zip file [can be downloaded from Google Drive.](https://drive.google.com/file/d/1BRWi_-KUecY2GWI8tY7hVlsn7TspRgCW/view?usp=drive_link)  Once downloaded, extract the folder and open the file named "PixelSolitaireREDUX-1.0.0" and the game should launch.
-
-
-### Installation
-
-1. If you do not already have Java installed on your machine, download a recent version from https://www.java.com/en/
-2. If you do not already have Gradle installed on your machine (standard with most Java IDEs), download a recent version from https://gradle.org/install/
-2. Clone the repo
+1. Clone the repo
    ```sh
-   git clone https://github.com/jwbmarten/PixelSolitaireREDUX.git
+   git clone https://github.com/jwbmarten/CovidAnalyzer
    ```
 3. Navigate to the desktop launcher class below and run it
    ```sh
