@@ -32,7 +32,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/jwbmarten/PixelSolitaireREDUX">
-    <img src="bannerPhoto.png" alt="Logo" width="350" height="180">
+    <img src="images/bannerPhoto.png" alt="Logo" width="350" height="180">
   </a>
 
 <h3 align="center">CovidAnalyzer</h3>
