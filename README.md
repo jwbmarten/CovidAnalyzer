@@ -81,7 +81,6 @@ CovidAnalyzer is a Java application designed to leverage open source data from t
 
 <figure style="text-align: center;">
     <img src="images/modules.png" alt="Logo" width="700" height="380">
-    <figcaption style="font-size: 14px; color: #555;">How the Dependencies tab should look if using IntelliJ</figcaption>
 </figure>
 
 
@@ -93,7 +92,6 @@ CovidAnalyzer works with 3 different types of data: Population, Properties, and 
 
 <figure style="text-align: center;">
     <img src="images/covid_ex.png" alt="Logo" width="700" height="380">
-    <figcaption style="font-size: 14px; color: #555;">Example of a Covid .csv data file when viewed in Excel.</figcaption>
 </figure>
 
 
@@ -133,7 +131,6 @@ Open your IDE run configurations and add a new configuration ensuring the Workin
 
 <figure style="text-align: center;">
     <img src="images/runConfig.png" alt="Logo" width="700" height="380">
-    <figcaption style="font-size: 14px; color: #555;">Example of Run Configuration in IntelliJ.</figcaption>
 </figure>
 
 ### Using the Application
@@ -142,14 +139,12 @@ Upon start, CovidAnalyzer will load, parse, and store the data from the provided
 
 <figure style="text-align: center;">
     <img src="images/mainMenu.png" alt="Logo" width="700" height="200">
-    <figcaption style="font-size: 14px; color: #555;">Main Menu.</figcaption>
 </figure>
 
 Note that if you have not provided one of each data type, not all actions will be available to you. To view your possible actions, select menu option 1.
 
 <figure style="text-align: center;">
     <img src="images/popOnly.png" alt="Logo" width="200" height="200">
-    <figcaption style="font-size: 14px; color: #555;">Possible actions when only a population dataset is provided.</figcaption>
 </figure>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -163,7 +158,6 @@ CovidAnalyzer was also built using JUnit to perform unit testing. These tests ca
 
 <figure style="text-align: center;">
     <img src="images/structure.png" alt="Logo" width="200" height="700">
-    <figcaption style="font-size: 14px; color: #555;">Project structure.</figcaption>
 </figure>
 
 
